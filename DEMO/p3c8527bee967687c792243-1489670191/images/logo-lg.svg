@@ -1,0 +1,19 @@
+<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>
+    biglogo
+  </title>
+  <defs>
+    <path d="M73.63.643c-35.398-5-68.097 19.7-72.997 54.998-4.3 30.7 13.7 59.4 41.7 69.698l4.5-31.798c-17.7-3.6-30-20.1-28.3-38.3-.7-.4-1.3-.8-1.9-1.3-2.8-2.3-4.6-5.6-5-9.2-.4-3.698.8-7.498 3.2-10.298l4.5 3.9c-1.4 1.6-2 3.7-1.8 5.8.2 2 1.2 3.8 2.8 5.1 1.6 1.3 3.6 1.9 5.6 1.7 4.2-.4 7.2-4.2 6.8-8.4l6-.6c.8 7.5-4.7 14.2-12.1 14.9-.7.1-1.5.1-2.2 0-.8 14.698 9.4 27.798 23.8 30.698 3.598-5.7 16.398-6.1 25.698-5.2l.9-6.6c-12.2-2.2-29.498-7.8-28.298-17.4l3.3-23.398c1.6-10.6 23.4-10.3 35.498-8.6 12.1 1.7 33.1 7.4 31.7 18l-3.3 23.4c-1.5 9.498-19.6 10.198-31.9 8.898l-.9 6.6c10.4 1.9 24.6 6.7 23.5 14.8l-2.8 19.5c14.2-9.9 24.5-25.5 27.098-44 4.9-35.298-19.7-67.997-55.097-72.897z" id="b"/>
+    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="a">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.960784314 0 0 0 0 0.364705882 0 0 0 0 0.329411765 0 0 0 0 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle fill="#FFF" cx="64.675" cy="64.675" r="64.675"/>
+    <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#F55D54" xlink:href="#b"/>
+    <path fill="#F55D54" d="M92.922 44.028l5.15.724-2.006 14.26-5.15-.723zM68.223 40.536l5.05.71-2.004 14.26-5.052-.71z"/>
+  </g>
+</svg>
